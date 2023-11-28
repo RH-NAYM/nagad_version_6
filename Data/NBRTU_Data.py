@@ -1,5 +1,5 @@
 import torch
-nbrtuModel = torch.hub.load('yolov5', 'custom', path='AI_Models/best.pt', source='local') # , device=0)
+nbrtuModel = torch.hub.load('yolov5', 'custom', path='AI_Models/Nagad_AI_V6.pt', source='local', device=0)
 # old_nbrtuModel = torch.hub.load('yolov5', 'custom', path='AI_Models/Nagad_AI_V3.pt', source='local', device=0)
 # nbrtuModel.conf = 0.4
 # nbrtuModel.iou = 0.2
