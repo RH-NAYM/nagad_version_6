@@ -86,7 +86,7 @@ async def detect_objects(model, url):
 # Multi-Threading detection 
 async def detect_sequence(url):
 
-    nbrtuModel.conf = 0.5
+    nbrtuModel.conf = 0.55
     nbrtuModel.iou = 0.25
     # tasks = [detect_objects(nbrtuModel, url)]
     # results = await asyncio.gather(*tasks)
