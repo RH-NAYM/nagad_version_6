@@ -1,14 +1,29 @@
-# sudo apt install iproute2 && sudo apt install wget && sudo apt install unzip && apt install nvtop
+sudo apt install iproute2 && sudo apt install wget && sudo apt install unzip && apt install nvtop
 
-# sudo apt update && sudo apt upgrade
+apt-get update && apt-get install libgl1
 
-# apt-get update && apt-get install libgl1
+pip install fastapi uvicorn pydantic pytz
 
-# pip install fastapi uvicorn pydantic
+wget "https://nagad-pulse.sgp1.digitaloceanspaces.com/nagad_final_project_version6.zip"
 
-# pip install pytz
+unzip "nagad_AI_version5.zip"
 
-# apt install nvtop
+curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+
+ngrok config add-authtoken 2Qm8hS1zPhVXiLjEdlI4738tLzF_2QJwGJMK5oTbQD33QSVXS
+
+cd yolov5 && pip install -r requirements.txt && cd ..
+
+sudo apt update && sudo apt upgrade
+
+## Replace nagad_main_function.py & NBRTU_Data.py ##
+
+ngrok http --domain=hasb.nagadpulse.com 4444
+
+python "nagad_main_API.py"
+
+
+         **********************************************************************************
 
 ### https://nagad-pulse.sgp1.digitaloceanspaces.com/nagad_final_project.zip
 
@@ -16,15 +31,9 @@
 wget "https://nagad-pulse.sgp1.digitaloceanspaces.com/nagad_final_project_version3.zip"
 version 4 : wget "https://nagad-pulse.sgp1.digitaloceanspaces.com/nagad_final_project_version4.zip"
 
-#  curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
 
-# ngrok config add-authtoken 2Qm8hS1zPhVXiLjEdlI4738tLzF_2QJwGJMK5oTbQD33QSVXS
 
 ### OLD : # ngrok http --domain=facedetection.ngrok.dev 8000 /// # ngrok http --domain=hawkeyes.ngrok.app 8020 /// # ngrok http --domain=nagadpulse.ngrok.app 4444
-
-### NEW : # ngrok http --domain=hasb.nagadpulse.com 4444
-
-# pip install -r requirements.txt
 
 
 ***	uvicorn nagad_main_API:app --reload --port 8000		***
