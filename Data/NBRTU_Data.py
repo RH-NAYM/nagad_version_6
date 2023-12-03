@@ -140,7 +140,8 @@ ndel_items = [
                 'nagad_festoon_send_money', # new add v5
                 'nagad_shop_banner_customized', # new add v5
                 'tap_table_top_qr', # add new v5
-                'bkash_hanger_push-pull_door' # add new v5
+                'bkash_hanger_push-pull_door', # add new v5
+                'rocket_shop_banner_price' # add new v6
             ]
 
 
@@ -195,7 +196,6 @@ rocket_items = [
                     'rocket_poster_insurance', 
                     'rocket_shop_banner_bill_pay', 
                     'rocket_shop_banner_lenden', 
-                    'rocket_shop_banner_price', 
                     'rocket_shop_banner_send_money', 
                     'rocket_sticker_running', 
                     'rocket_sticker_shutter', 
