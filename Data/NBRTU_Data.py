@@ -159,7 +159,7 @@ bkash_items = [
                 'bkash_poster_mobile_recharge', 
                 'bkash_poster_remittance', 
                 'bkash_poster_savings', 
-                'bkash_festoon_savings_new' # new v4
+                'bkash_festoon_savings_new', # new v4
                 'bkash_poster_send_money', 
                 'bkash_poster_table_messi', 
                 'bkash_poster_western_union', 
