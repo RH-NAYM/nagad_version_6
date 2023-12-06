@@ -116,6 +116,7 @@ nagad_items = [
                 'nagad_table_top_qr_wooden_base_new',
                 'nagad_table_top_qr_wooden_base_old',
                 'nagad_shop_banner_cash_out', # new v5
+                'nagad_festoon_send_money', # new add v6
                 'nagad_festoon_send_money_free', # new v5
                 'nagad_poster_pdb', # new v5
                 'nagad_sticker_shutter_panel', # new v5
@@ -137,7 +138,6 @@ ndel_items = [
                 'nagad_board_back_lit_1_with_picture',
                 'nagad_x_banner',
                 'bkash_table_top_qr_smart',
-                'nagad_festoon_send_money', # new add v5
                 'nagad_shop_banner_customized', # new add v5
                 'tap_table_top_qr', # add new v5
                 'bkash_hanger_push-pull_door', # add new v5
